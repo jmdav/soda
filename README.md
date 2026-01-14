@@ -28,7 +28,7 @@ I am going to use the required technologies in the following ways.
 - **Service** - Endpoints for:
     - Generating market prices based on truly random seeds from random.org
     - Registering, login, and logout
-- **DB/Login** - Store users and wins.
+- **DB** - Store users and wins.
 - **WebSocket**
     - Submitting and retrieving leaderboard and market changes.
     - Enforcing 5 minute timer.
