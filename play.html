@@ -30,26 +30,23 @@
         <h1 class="game-capital">$200</h1>
       </div>
       
-      <div class="stocks">
-        <span class="game-stocks">SYRUP: ($1.00 ⬇️) STRAW: ($0.50 ⬆️)</span>
-      </div>
-
       <div class="inventory">
-        <div class="inventory-item">SYRUP
+        <div class="inventory-item">SODA
+          <div class="game-soda">SUPPLY: 10</div>
+          <button id="make-soda">MIX</button>
+          <meter id="make-soda-percent" value="0.6">60%</meter>
+          <br>
+          <input type="range" id="price-soda" name="PRICE" min="0.00" max="10.00">PRICE</button>
+        </div>
+        <div class="inventory-item">SYRUP <span id="price-syrup">($1.00 ⬇️)</span>
           <div class="game-syrup">SUPPLY: 10</div>
           <button id="buy-syrup">BUY</button>
           <button id="sell-syrup">SELL</button>
         </div>
-        <div class="inventory-item">STRAW
+        <div class="inventory-item">STRAW <span id="price-straw">($0.50 ⬆️)</span>
           <div class="game-syrup">SUPPLY: 10</div>
           <button id="buy-straw">BUY</button>
           <button id="sell-straw">SELL</button>
-        </div>
-        <div class="inventory-item">SODA
-          <div class="game-soda">SUPPLY: 10</div>
-          <button id="make-soda">MIX</button>
-          <br>
-          <input type="range" id="price-soda" name="PRICE" min="0.00" max="10.00">SELL</button>
         </div>
       </div>
 
