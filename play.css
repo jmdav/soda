@@ -151,6 +151,7 @@ button {
   border: 1px solid gray;
   padding: 5px 14px;
   border-radius: 15px;
+  color: black;
 }
 
 button:hover {

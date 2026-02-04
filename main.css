@@ -136,6 +136,7 @@ button {
   background-color: white;
   transition: 0.15s ease;
   font-family: "JetBrains Mono", monospace;
+  color: black;
 }
 
 button:hover {
