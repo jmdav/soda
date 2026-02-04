@@ -81,7 +81,7 @@ a:hover {
 
 footer {
   height: 10vh;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -106,16 +106,11 @@ footer {
 body {
   display: flex;
   justify-content: center;
-  max-width: 100vw;
   margin: 0px;
 }
 
 .content {
-  width: 100vw;
-}
-
-main {
-  width: 90vw;
+  width: 100%;
 }
 
 .capital-wrapper {
@@ -184,4 +179,17 @@ button:hover {
   border: 1px solid gray;
   border-radius: 20px;
   background-color: white;
+}
+
+.lower-wrapper {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
+footer {
+  background-color: white;
+  padding: 20px;
 }
